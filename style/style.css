@@ -11,7 +11,7 @@ body {
 
 .task-section, .button-section {
     background-color: white;
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -40,7 +40,7 @@ header {
 /* Task button section */
 
 .button-section {
-    margin: 5rem auto 1rem;
+    margin: 2.5rem auto 0.2rem;
     height: 3rem;
     line-height: 3rem;
     border-radius: 15px 15px 0 0;
@@ -66,6 +66,10 @@ header {
 }
 
 /* Task section */
+
+.arrow {
+    font-size: 0.8rem;
+}
 
 .task-section{
     border-radius: 0 0 15px 15px;
