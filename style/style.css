@@ -13,13 +13,18 @@ body {
     background-color: white;
     width: 70%;
     margin: auto;
+    line-height: 2.25rem;
 }
 
 ul {
     list-style: none;
     padding: 0.25rem;
+    font-size: 1.25rem;
 }
 
+section {
+    padding: 1rem 2rem;
+}
 /* Header */
 
 header {
@@ -31,6 +36,7 @@ header {
 
 .logo-text {
     display: inline;
+    font-size: 3rem;
 }
 
 .logo, .logo-text {
@@ -67,6 +73,7 @@ header {
 
 /* Task section */
 
+
 .arrow {
     font-size: 0.8rem;
 }
@@ -99,6 +106,7 @@ header {
     background-color: #B0C926;
 }
 
+
 .done{
     color:#77C9B7;
     border: 2px solid #77C9B7;
@@ -109,6 +117,7 @@ header {
     line-height: 1.5rem;
     vertical-align: middle;
     text-align: center;
+    font-size: medium;
 }
 
 .not-done {
@@ -121,6 +130,7 @@ header {
     line-height: 1.5rem;
     vertical-align: middle;
     text-align: center;
+    font-size: medium;
 }
 
 /* Utility */
