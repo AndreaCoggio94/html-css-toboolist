@@ -41,22 +41,71 @@ header {
 
 .button-section {
     margin: 5rem auto 1rem;
+    height: 3rem;
+    line-height: 3rem;
+    border-radius: 15px 15px 0 0;
 }
 
+.new-task {
+    background-color: #47ADF1;
+    border: 0;
+    color: white;
+    vertical-align: middle;
+    padding: 0.25rem;
+    margin: auto auto auto 2rem;
+    border-radius: 5px;
+}
 
+.new-section {
+    border: 2px solid lightgray;
+    background-color: white;
+    color: lightgray;
+    vertical-align: middle;
+    padding: 0.25rem;
+    border-radius: 5px;
+}
+
+/* Task section */
+
+.task-section{
+    border-radius: 0 0 15px 15px;
+}
+
+.editorial{
+    background-color: #47ADF1;
+}
+
+.q1-goals{
+    background-color: #9C72E4;
+}
+
+.recruiting {
+    background-color: #64C0A9;
+}
+
+.mobile {
+    background-color: #F29E33;
+}
+
+.website {
+    background-color: #D863A1;
+}
+
+.sales {
+    background-color: #B0C926;
+}
 
 /* Utility */
 
 .tag {
-    background-color: lightblue;
     color: white;
     display: inline-block;
     height: 2rem;
-    border-radius: 0.5rem;
+    border-radius: 15px;
     line-height: 2rem;
     vertical-align: middle;
     text-align: center;
     font-size: 0.8rem;
-    padding: 0 20px;
+    padding: 0 10px;
     box-sizing: content-box;
 }
