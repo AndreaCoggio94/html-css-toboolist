@@ -43,3 +43,7 @@ header {
 }
 
 /* Utility */
+
+.done:before {
+    content: "immagine positiva ";
+}
