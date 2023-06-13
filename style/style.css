@@ -9,6 +9,16 @@ body {
     background-color: lightgrey;
 }
 
+.task-section, .button-section {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
 /* Header */
 
 header {
@@ -24,6 +34,12 @@ header {
 
 .logo, .logo-text {
     vertical-align: middle;
+}
+
+/* Task button section */
+
+.button-section {
+    margin: 5rem auto 1rem;
 }
 
 /* Utility */
